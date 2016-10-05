@@ -1,0 +1,47 @@
+text {
+  font-size: 11px;
+  pointer-events: none;
+  fill: #FFFFFF;
+}
+
+text.parent {
+}
+
+circle {
+  pointer-events: all;
+}
+
+circle.parent {
+}
+
+circle.parent:hover {
+
+}
+
+circle:hover {
+  opacity: 1;
+}
+
+.link, circle.hidden {
+  pointer-events:none;
+  opacity: 0;
+}
+
+svg.bubble-chart {
+  background-color: #EEEEEE;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+circle.highlighted {
+  fill: #ffcf40;
+  opacity: 0.8;
+  pointer-events:none;
+}
+
+
+
